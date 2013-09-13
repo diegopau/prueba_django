@@ -5,7 +5,7 @@
     <ignored path="prueba.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/urls.py" changelist="3d7e3d75-1f22-423b-bfa9-146acbbe456f" time="1379106099116" ignored="false" />
-    <file path="/settings.py" changelist="3d7e3d75-1f22-423b-bfa9-146acbbe456f" time="1379111841217" ignored="false" />
+    <file path="/settings.py" changelist="3d7e3d75-1f22-423b-bfa9-146acbbe456f" time="1379112959707" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prueba/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="75" selection-start="1227" selection-end="1292" vertical-scroll-proportion="0.35128805">
+            <state line="163" column="0" selection-start="5572" selection-end="5678" vertical-scroll-proportion="0.59601873">
               <folding />
             </state>
           </provider>
@@ -334,7 +334,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prueba/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="75" selection-start="1227" selection-end="1292" vertical-scroll-proportion="0.35128805">
+        <state line="163" column="0" selection-start="5572" selection-end="5678" vertical-scroll-proportion="0.59601873">
           <folding />
         </state>
       </provider>

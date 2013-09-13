@@ -18,16 +18,6 @@ DATABASES = {
         'PASSWORD': 'prueba',
         'HOST': '',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
         'PORT': '',                      # Set to empty string for default.
-    },
-
-    'production': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': 'pruebadb',                      # Or path to database file if using sqlite3.
-        # The following settings are not used with sqlite3:
-        'USER': 'pruebauser',
-        'PASSWORD': 'prueba',
-        'HOST': '',                      # Empty for localhost through domain sockets or '127.0.0.1' for localhost through TCP.
-        'PORT': '',                      # Set to empty string for default.
     }
 }
 
@@ -171,7 +161,7 @@ LOGGING = {
 # para heroku
 # Parse database configuration from $DATABASE_URL
 import dj_database_url
-DATABASES['production'] =  dj_database_url.config()
+DATABASES = {'default': dj_database_url.config(default='postgres://pruebauser:prueba@localhost/pruebadb')}
 
 # Honor the 'X-Forwarded-Proto' header for request.is_secure()
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
