@@ -5,7 +5,7 @@
     <ignored path="prueba.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/urls.py" changelist="3d7e3d75-1f22-423b-bfa9-146acbbe456f" time="1379106099116" ignored="false" />
-    <file path="/settings.py" changelist="3d7e3d75-1f22-423b-bfa9-146acbbe456f" time="1379106380385" ignored="false" />
+    <file path="/settings.py" changelist="3d7e3d75-1f22-423b-bfa9-146acbbe456f" time="1379111841217" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prueba/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="156" selection-end="731" vertical-scroll-proportion="0.19320843">
+            <state line="29" column="75" selection-start="1227" selection-end="1292" vertical-scroll-proportion="0.35128805">
               <folding />
             </state>
           </provider>
@@ -156,6 +156,7 @@
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="last_opened_file_path" value="$USER_HOME$/virtualenvs/prueba/bin/python" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -189,6 +190,12 @@
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="prueba" type="Python.DjangoServer" factoryName="Django server">
@@ -327,7 +334,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prueba/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="156" selection-end="731" vertical-scroll-proportion="0.19320843">
+        <state line="29" column="75" selection-start="1227" selection-end="1292" vertical-scroll-proportion="0.35128805">
           <folding />
         </state>
       </provider>
